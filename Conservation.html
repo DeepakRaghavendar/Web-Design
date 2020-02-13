@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="chrome">
+<title>Amuay WildLife Park</title>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/Camps.css">
+<link rel="stylesheet" href="css/Conservation.css">
+
+<link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Vidaloka&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"  >
+</head>
+
+<div class="topnav" id="myTopnav">
+       <a href="#" style="height:82px;width:27%"><img src="images/LogoMakr_8hC9tb.png" style="width:90%;height:90px; float:left" alt="logo"></a>
+       <br>
+       <br>
+       <br>
+       <br>
+
+  <a href="index.html">Home</a>
+
+  <div class="dropdown">
+    <button class="dropbtn">&nbsp&nbsp&nbspPlan Your Visit&nbsp&nbsp&nbsp
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Tours.html">Tours</a>
+      <a href="Shopping&Dining.html">Shopping and Dining</a>
+      <a href="DailyActivities.html">Daily Activities</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Flora & Fauna
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Plants.html">Plants</a>
+      <a href="Animals.html">Animals</a>
+      <a href="Conservation.html" class="active">Conservation</a>
+    </div>
+  </div>
+  <a href="CareForAnimals.html">Care for Animals</a>
+  <a href="Camps.html">Camps</a>
+  <a href="RegistrationPage.html" style="float:right">Member Registration</a>
+
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<div style="height:50px">
+</div>
+<body>
+  &nbsp &nbsp &nbsp
+
+  <div class="icon-bar">
+    <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="google"><i class="fab fa-google"></i></a>
+    <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+    <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+  </div>
+<div class = "zootour">
+<h1 class = "zoocamps">Wildlife conservation</h1>
+<u><h2 class = "zookeeper">Make a difference</h2></u>
+<img src="images/conservation_plants.jpg" alt="Zoo Keeper" style="width:800px;height:400px">
+<span>
+<p class = 'child'>Variety of conservation projects to conserve endangered species are going on. All contributions are utilised for maintenance of the projects. An acknowledgement receipt for each donation will be sent.<br>
+  </p>
+<button class="btn"><i class="fa fa-donate">&nbspDonate now </i>&rtrif;</button></p>
+
+</span>
+</div>
+
+<div class = "zootour">
+<u><h2 class = "zookeeper">Initiatives to Conserve</h2></u>
+<img src="images/conservation4.jpg" alt="Zoo Keeper" style="width:800px;height:400px">
+<span>
+<p class = 'child'>A team that focus on usage of earth-friendly items is actively working to ensure resource conservation. Partnership with conservation projects worldwide makes it possible to find volunteers to help these species in overcoming the challenges of survival. "Save endangered fauna" project encourages people locally and globally to put forward their ideas and efforts. Main aim of some of the current projects is to provide special care for specific species.<br>
+  </p>
+
+<button class="btn"><i class="fas fa-hand-pointer"> &nbsp Join us </i></button>
+</span>
+</div>
+<div class = "zootour">
+<u><h2 class = "zookeeper">Celebrate with us</h2></u>
+<img src="images/conservation_day.jpg" alt="Zoo Keeper" style="width:800px;height:400px">
+<span>
+<p class = 'child explorer'>Learn how to preserve and protect!<br>
+ Excited to take part in conservation day activities?<br>
+ Arrive at Amuay wildlife on December 4th<br>
+<p class = "camp"><img src="images/location.png" alt="location" style="width:50px;height:50px">
+&nbsp  Amuay wildlife &nbsp &nbsp &nbsp<img src="images/calendar.png" alt="location" style="width:50px;height:50px">
+&nbsp  4 December&nbsp &nbsp &nbsp&nbsp</p>
+
+<p class = "venue explorer">Duration: 9 am – 3.00 pm <br>
+Free entry for Public<br>
+<br>
+<br>
+
+</p>
+</span>
+</div>
+
+
+</body>
+<footer class="footerstyle" style="height:80px">
+<p>
+  <small style="cursor:pointer; font-size:15px">&copy; Copyright 2019, Amuay Wildlife Park </small>
+&nbsp &nbsp &nbsp <small style="cursor:pointer; font-size:15px"> Contact Us </small>
+&nbsp &nbsp &nbsp<small style="cursor:pointer;font-size:15px"> Upcoming Events </small>
+  &nbsp &nbsp &nbsp<small style="cursor:pointer;font-size:15px">  Other Details </small>
+  <br>
+  <br>
+  <br>
+</p>
+<br>
+<br>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<script>
+var navList = document.getElementById("nav-lists");
+var currentYear = 2019;
+function Show() {
+navList.classList.add("_Menus-show");
+}
+
+function Hide(){
+navList.classList.remove("_Menus-show");
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+</script>
+
+
+</html>

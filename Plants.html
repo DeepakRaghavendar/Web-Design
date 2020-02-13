@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="chrome">
+<title>Amuay WildLife Park</title>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/Plants.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Vidaloka&display=swap" rel="stylesheet">
+</head>
+<div class="topnav" id="myTopnav">
+       <a href="#" style="height:82px;width:27%"><img src="images/LogoMakr_8hC9tb.png" style="width:90%;height:90px; float:left" alt="logo"></a>
+       <br>
+       <br>
+       <br>
+       <br>
+
+  <a href="index.html">Home</a>
+
+  <div class="dropdown">
+    <button class="dropbtn">&nbsp&nbsp&nbspPlan Your Visit&nbsp&nbsp&nbsp
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Tours.html">Tours</a>
+      <a href="Shopping&Dining.html">Shopping and Dining</a>
+      <a href="DailyActivities.html">Daily Activities</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Flora & Fauna
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Plants.html" class="active">Plants</a>
+      <a href="Animals.html">Animals</a>
+      <a href="Conservation.html">Conservation</a>
+    </div>
+  </div>
+  <a href="CareForAnimals.html">Care for Animals</a>
+  <a href="Camps.html">Camps</a>
+  <a href="RegistrationPage.html" style="float:right">Member Registration</a>
+
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<div style="height:50px">
+</div>
+<body style="height:1200px">
+<h4 class = "flora">The Floral World</h4>
+<div id="bambooModal" class="modalDialog">
+  <div>
+  <a href="#close" title="Close" class="close">X</a>
+ <div class="modal-content">
+   <div class="modal-header">
+     <h2 class="header">Bamboo and Venezuela </h2>
+   </div>
+   <div class="modal-body">
+     <p>Venezuela has the third highest woody bamboo diversity in Latin America. At present 10 genera and 60 species, 18 of them endemics, are reported with several species remaining to be described</p>
+     <p>The Venezuelan states with the highest woody bamboo diversity are: Bolivar, Amazonas, Tachira, Distrito Federal and Merida. The southern states (Amazonas and Bolivar) hold the greater diversity and number of woody bamboo species (63%), followed by the Andean region (38%).</p>
+   </div>
+   <div class="modal-footer">
+     <h4 class = "footer-font">Fun Facts : Bamboos can spread very rapidly, so watch out for escaping runners if you plant them in your garden!</h4>
+   </div>
+ </div>
+  </div>
+</div>
+<div id="grassModal" class="modalDialog">
+  <div>
+  <a href="#close" title="Close" class="close">X</a>
+ <div class="modal-content">
+   <div class="modal-header">
+     <h2 class="header">The tall trees</h2>
+   </div>
+   <div class="modal-body">
+     <p>The tall tress of Venezuela are a major attraction during the Summer. The tourists spend a whole day enjoying the canopy.</p>
+     <p>The special vehicle arranged by the zoo takes a 5 KM route. During the winter these trees inivite temendous amount rain. These are one of natures wonder</p>
+   </div>
+   <div class="modal-footer">
+     <h4 class = "footer-font">Fun Facts :During sunrise and sunset the streaks of sun light penetrates through these tress,its a treat for  the human eye.</h4>
+   </div>
+ </div>
+  </div>
+</div>
+
+<div id="TulipModal" class="modalDialog">
+  <div>
+  <a href="#close" title="Close" class="close">X</a>
+ <div class="modal-content">
+   <div class="modal-header">
+     <h2 class="header">The Tulips</h2>
+   </div>
+   <div class="modal-body">
+     <p>Tulips (Tulipa) form a genus of spring-blooming perennial herbaceous bulbiferous geophytes (having bulbs as storage organs). The flowers are usually large, showy and brightly colored, generally red, pink, yellow, or white (usually in warm colors).</p>
+     <p>They often have a different colored blotch at the base of the tepals (petals and sepals, collectively), internally. Because of a degree of variability within the populations, and a long history of cultivation, classification has been complex and controversial.</p>
+   </div>
+   <div class="modal-footer">
+     <h4 class = "footer-font">Fun Facts : According to Teleflora, different colored tulips have different meanings. The red flowers symbolize true love while purple represents loyalty</h4>
+   </div>
+ </div>
+  </div>
+</div>
+
+<div id="rainForest" class="modalDialog">
+  <div>
+  <a href="#close" title="Close" class="close">X</a>
+<div class="modal-content">
+ <div class="modal-header">
+   <h2 class="header">The Rain Forest</h2>
+ </div>
+ <div class="modal-body">
+   <p>Rainforests are the forests that receive high amount of rainfall.</p>
+   <p>Amuay wildlife takes pride in converting a part of the wildlife park into a natures heaven. The rainforest is a home for different species of fauna.</p>
+ </div>
+ <div class="modal-footer">
+   <h4 class = "footer-font">Fun Facts :Rainforests only cover around 2 percent the total surface area of the Earth, but really about 50 percent of the plants and animals on the earth live in the rainforest</h4>
+ </div>
+</div>
+</div>
+</div>
+<div id="grapes" class="modalDialog">
+  <div>
+  <a href="#close" title="Close" class="close">X</a>
+<div class="modal-content">
+ <div class="modal-header">
+   <h2 class="header">The wild Chokeberries </h2>
+ </div>
+ <div class="modal-body">
+   <p>Chokeberries (Aronia) are a type of shrub native to eastern North America </p>
+   <p>Chokeberries typically grow in wet woods and swamps. There are three main species of chokeberry — the red chokeberry (Aronia arbutifolia), black chokeberry (Aronia melanocarpa), and purple chokeberry (Aronia prunifolia).
+   Amuay wildlife a exclusive garden of this wild berry. They serve as a treat for the omnivorous in the park.</p>
+ </div>
+ <div class="modal-footer">
+   <h4 class = "footer-font">Fun Facts :Chokeberries are particularly high in vitamin K, a nutrient that supports bone health and is needed for important bodily functions, such as proper blood clotting.</h4>
+ </div>
+</div>
+</div>
+</div>
+<div id="pineForest" class="modalDialog">
+  <div>
+  <a href="#close" title="Close" class="close">X</a>
+<div class="modal-content">
+ <div class="modal-header">
+   <h2 class="header">Bird’s-nest ferns</h2>
+ </div>
+ <div class="modal-body">
+  <P> Bird’s-nest ferns are evergreen, with solid, undivided fronds that may be a consistent width from top to bottom or taper, depending on the species.</p>
+   <p>These beautiful, bright green ferns in the genus Asplenium produce a crown of upright, undivided fronds that grow in a rosette formation, creating a funnel-like center over a mat of fibrous roots at the base</p>
+ </div>
+ <div class="modal-footer">
+   <h4 class = "footer-font">Fun Facts :Some bird’s-nest ferns can grow to 4 feet in diameter, with fronds that are 2 to 5 feet (61 to 152.4 centimeters) long.</h4>
+ </div>
+</div>
+</div>
+</div>
+<div id="Fuchsia" class="modalDialog">
+  <div>
+  <a href="#close" title="Close" class="close">X</a>
+<div class="modal-content">
+ <div class="modal-header">
+   <h2 class="header">Fuchsia</h2>
+ </div>
+ <div class="modal-body">
+  <P> The famous, decorative flowers typically have a pendulous, teardrop shape, with four long, slender sepals over four shorter, broader petals.</p>
+   <p>One species, Fuchsia excorticata naturally grows as a tree, and its wood is extremely dense and hard, sometimes used for carving. </p>
+ </div>
+ <div class="modal-footer">
+   <h4 class = "footer-font">Fun Facts:Fuchsia usually grows in the form of a shrub that can reach from 8 inches to more than 13 feet in height  (20 centimeters to 4 meters)</h4>
+ </div>
+</div>
+</div>
+</div>
+
+<div id="Hibiscus" class="modalDialog">
+  <div>
+  <a href="#close" title="Close" class="close">X</a>
+<div class="modal-content">
+ <div class="modal-header">
+   <h2 class="header">Hibiscus</h2>
+ </div>
+ <div class="modal-body">
+  <P> The big, bold presence of hibiscus flowers is eye-catching, whether they are on the lushly leaved plant or tucked behind an ear. Yet beyond the kaleidoscope of colors is a group of plants with a fascinating history and unique uses.</p>
+   <p>Native to warm-temperate, subtropical and tropical regions, the genus Hibiscus includes both woody shrubs and small trees as well as herbaceous plants. </p>
+ </div>
+ <div class="modal-footer">
+   <h4 class = "footer-font">Fun Facts:Besides their obvious ornamental value, hibiscus blossoms have deep meaning in human culture. Blooms of different species reign as the state flower of Hawaii, the national flower of Haiti, South Korea, and Malaysia</h4>
+ </div>
+</div>
+</div>
+</div>
+<div id="chinese_silvergrass" class="modalDialog">
+  <div>
+  <a href="#close" title="Close" class="close">X</a>
+<div class="modal-content">
+ <div class="modal-header">
+   <h2 class="header">Chinese Silver Grass</h2>
+ </div>
+ <div class="modal-body">
+  <P> This tall, graceful grass sways elegantly in a breeze. It's native to many regions of temperate and tropical Asia—not just China. In the US, several cultivars are popular for use as focal plants or screens. It's a member of the Poaceae family—the true grasses.</p>
+   <p>Chinese silver grass has become an invasive species in parts of the US, including California and many states of the Southeast. It can be found growing in large clumps, making it harder for native grasses and other plants to survive </p>
+ </div>
+ <div class="modal-footer">
+   <h4 class = "footer-font">Fun Facts : Some plants reach heights of 12 feet (3.7 meters) or more, although many cultivars are quite a bit smaller.</h4>
+ </div>
+</div>
+</div>
+</div>
+<div id="Geranium" class="modalDialog">
+  <div>
+  <a href="#close" title="Close" class="close">X</a>
+<div class="modal-content">
+ <div class="modal-header">
+   <h2 class="header">Geranium</h2>
+ </div>
+ <div class="modal-body">
+  <P> Pelargoniums are a large and diverse group of evergreen and tender perennials largely native to South Africa. Over the years, a large number of cultivars have been developed from roughly 20 original species. These popular plants are a garden staple for hanging baskets, summer flowerbeds, and greenhouse displays</p>
+    </div>
+ <div class="modal-footer">
+   <h4 class = "footer-font">Fun Facts : The leaves have a distinctive smell when rubbed or pressed, and in many cultivars the scents are quite aromatic and distinctive</h4>
+ </div>
+</div>
+</div>
+</div>
+<div id="Cattail" class="modalDialog">
+  <div>
+  <a href="#close" title="Close" class="close">X</a>
+<div class="modal-content">
+ <div class="modal-header">
+   <h2 class="header">Cattail</h2>
+ </div>
+ <div class="modal-body">
+  <P> It would be hard to find a wetland plant as iconic as the cattail, with its brown, "hot-dog-on-a-stick" flower spikes. Cattails offer more than a scenic backdrop; they create an important wildlife habitat, providing food for small mammals and cover for water birds</p>
+  <P> Deep green, long, narrow, strap-like leaves emerge from the base of the stem and grow upward, but these grass-like plants get their name from their tall, brown flower spikes</p>
+    </div>
+ <div class="modal-footer">
+   <h4 class = "footer-font">Fun Facts : Native to Europe and Asia, this species grows to just 18 inches (46 centimeters) tall, making it the smallest of the cattails. It blooms in summer.</h4>
+ </div>
+</div>
+</div>
+</div>
+<div id="Saguaro" class="modalDialog">
+  <div>
+  <a href="#close" title="Close" class="close">X</a>
+<div class="modal-content">
+ <div class="modal-header">
+   <h2 class="header">Cattail</h2>
+ </div>
+ <div class="modal-body">
+  <P> It would be hard to find a wetland plant as iconic as the cattail, with its brown, "hot-dog-on-a-stick" flower spikes. Cattails offer more than a scenic backdrop; they create an important wildlife habitat, providing food for small mammals and cover for water birds</p>
+  <P> Deep green, long, narrow, strap-like leaves emerge from the base of the stem and grow upward, but these grass-like plants get their name from their tall, brown flower spikes</p>
+    </div>
+ <div class="modal-footer">
+   <h4 class = "footer-font">Fun Facts : Native to Europe and Asia, this species grows to just 18 inches (46 centimeters) tall, making it the smallest of the cattails. It blooms in summer.</h4>
+ </div>
+</div>
+</div>
+</div>
+
+
+  <div class="container" style="float:right">
+<div class="box">
+<a href="#bambooModal"><img src="images/Bamboo.jpg" class="transition" style="height:250px; width:100%; cursor:pointer"></a>
+</div>
+<div class="box">
+<a href="#grassModal"><img src="images/tall_trees.jpeg" class="transition"style="height:250px;width:100%;cursor:pointer;cursor:pointer"></a>
+</div>
+<div class="box">
+<a href="#TulipModal"><img src="images/botanical.jpeg" class="transition"style="height:250px; width:100%;cursor:pointer"></a>
+</div>
+<div class="box">
+<a href="#rainForest"><img src="images/rain_forest.jpg" class="transition"style="height:250px; width:100%;cursor:pointer"></a>
+</div>
+  </div>
+  <div class="container" style="float:right">
+  <div class="box">
+  <a href = "#grapes"><img src="images/grapes.png" class="transition" style="height:250px; width:100%;cursor:pointer"></a>
+  </div>
+  <div class="box">
+    <a href="#pineForest"><img src="images/plants_hero_birdsnest.jpg"class="transition" style="height:250px; width:100%;cursor:pointer"></a>
+  </div>
+  <div class="box">
+    <a href="#Fuchsia"><img src="images/Fuchsia.jpg" class="transition" style="height:250px; width:100%;cursor:pointer"></a>
+  </div>
+  <div class="box">
+    <a href="#Hibiscus"><img src="images/Hibiscus1.jpg" class="transition" style="height:250px; width:100%;;cursor:pointer"></a>
+  </div>
+</div>
+<div class="container container3" style="float:right">
+<div class="box">
+  <a href="#chinese_silvergrass"><img src="images/chinese_silvergrass.jpg" class="transition" style="height:250px; width:100%;cursor:pointer"></a>
+</div>
+<div class="box">
+  <a href="#Geranium"><img src="images/Geranium.jpg"class="transition" style="height:250px; width:100%;cursor:pointer"></a>
+</div>
+<div class="box">
+  <a href="#Cattail"><img src="images/Cattail.jpg" class="transition" style="height:250px; width:100%;cursor:pointer"></a>
+</div>
+<div class="box">
+<a href="#Saguaro"><img src="images/Saguaro1.jpg" class="transition" style="height:250px; width:100%;cursor:pointer"></a>
+</div>
+</div>
+<br>
+<br>
+</body>
+<footer class="footerstyle" style="height:80px">
+<p>
+  <small style="cursor:pointer; font-size:15px">&copy; Copyright 2019, Amuay Wildlife Park </small>
+&nbsp &nbsp &nbsp <small style="cursor:pointer; font-size:15px"> Contact Us </small>
+&nbsp &nbsp &nbsp<small style="cursor:pointer;font-size:15px"> Upcoming Events </small>
+  &nbsp &nbsp &nbsp<small style="cursor:pointer;font-size:15px">  Other Details </small>
+  <br>
+  <br>
+  <br>
+</p>
+<br>
+<br>
+</footer>
+
+  <style type="text/css">
+
+.container{
+  height:300px;
+  width:100%;
+  height:auto;
+  display:flex;
+  flex-direction:row;
+  background-color:#999966;
+}
+
+.box{
+  width:340px;
+  height:250px;
+  background:#333;
+  box-sizing:border-box;
+  font-size:50px;
+  margin-right:10px;
+  margin-left:5px;
+  overflow: hidden
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.active {
+  background-color: #666633;;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #666633;;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.logo {
+  max-width: 50px;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 30px;
+}
+
+.logo a img {
+  max-width: 30%;
+  max-height: 30px;
+}
+
+.textcontainer {
+  padding: 10px;
+}
+
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+.transition{
+  width:100%;
+ transition: transform .6s ease .1s;
+ -webkit-transition:-webkit-transform .6s ease .1s;
+}
+.transition:hover{
+
+  transform: scale(1.5); -webkit-transform: scale(1.5);
+  transition:transform .4s ease;
+}
+
+/*new model*/
+.modalDialog {
+position: fixed;
+font-family: Arial, Helvetica, sans-serif;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: rgba(0,0,0,0.8);
+z-index:1;
+opacity:0;
+-webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
+pointer-events: none;
+width:100%; /* Full width */
+height:100%; /* Full height */
+padding-top:100px;
+}
+
+.modalDialog:target {
+opacity:1;
+pointer-events: auto;
+}
+
+.modalDialog > div {
+position: relative;
+background-color: #fefefe;
+margin: auto;
+padding: 0;
+border: 1px solid #888;
+width: 80%;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+-webkit-animation-name: animatetop;
+-webkit-animation-duration: 0.4s;
+animation-name: animatetop;
+animation-duration: 0.4s;
+}
+.close {
+background: #606061;
+color: #FFFFFF;
+line-height: 25px;
+position: absolute;
+right: -12px;
+text-align: center;
+top: -10px;
+width: 24px;
+text-decoration: none;
+font-weight: bold;
+-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
+-moz-box-shadow: 1px 1px 3px #000;
+-webkit-box-shadow: 1px 1px 3px #000;
+box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover
+{ background: #5cb85c;
+}
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+  font-family:'Courgette', cursive;
+}
+
+.modal-content{
+  font-family:'Courgette', cursive;
+}
+
+.modal-body
+{
+padding: 2px 16px;
+font-family:'Courgette', cursive;
+}
+.header{
+  font-family:'Courgette', cursive;
+}
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+.footer-font{
+  font-family:'Courgette', cursive;
+}
+
+.zoocamps{
+  text-align:center;
+  color:#1a5101;
+  font-family:'Courgette', cursive;
+}
+.mainbody{
+  background-color: white;
+}
+
+.flora{
+  text-align: center;
+  margin-top:1px;
+  color:#1a5101;
+  font-family:'Courgette', cursive;
+  font-size: 30px;
+}
+.container3{
+  margin-bottom:70px;
+}
+
+.name{
+  margin-left: 40px;
+}
+    </style>
